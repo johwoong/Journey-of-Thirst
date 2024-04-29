@@ -58,10 +58,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Cameras\TopDownCamera.cs" />
-    <Compile Include="Assets\Scripts\Characters\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\RandomStateMachine.cs" />
-    <Compile Include="Assets\Scripts\Cameras\BaseCamera.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\Managers.cs" />
+    <Compile Include="Assets\Scripts\Managers\Core\InputManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
